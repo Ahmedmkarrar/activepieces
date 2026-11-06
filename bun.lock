@@ -8566,6 +8566,19 @@
         "tslib": "2.6.2",
       },
     },
+    "packages/pieces/community/simpleverifier": {
+      "name": "@activepieces/piece-simpleverifier",
+      "version": "0.0.1",
+      "dependencies": {
+        "@activepieces/core-piece-types": "workspace:*",
+        "@activepieces/core-utils": "workspace:*",
+        "@activepieces/pieces-common": "workspace:*",
+        "@activepieces/pieces-framework": "workspace:*",
+      },
+      "devDependencies": {
+        "tslib": "2.6.2",
+      },
+    },
     "packages/pieces/community/simpliroute": {
       "name": "@activepieces/piece-simpliroute",
       "version": "0.2.1",
@@ -12751,6 +12764,8 @@
     "@activepieces/piece-signrequest": ["@activepieces/piece-signrequest@workspace:packages/pieces/community/signrequest"],
 
     "@activepieces/piece-simplepdf": ["@activepieces/piece-simplepdf@workspace:packages/pieces/community/simplepdf"],
+
+    "@activepieces/piece-simpleverifier": ["@activepieces/piece-simpleverifier@workspace:packages/pieces/community/simpleverifier"],
 
     "@activepieces/piece-simpliroute": ["@activepieces/piece-simpliroute@workspace:packages/pieces/community/simpliroute"],
 
